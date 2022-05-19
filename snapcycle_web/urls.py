@@ -14,16 +14,10 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
-from snapcycle.views import acceuil, contact, mission, propos, beta, thanks
+from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('acceuil/', acceuil),
-    path('propos/', propos),
-    path('beta/', beta),
-    path('thanks/', thanks),
-    path('contact/', contact),
-    path('mission/', mission),
+    path("",include("snapcycle.urls")),
 
 ]
