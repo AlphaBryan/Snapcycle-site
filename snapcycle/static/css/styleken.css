@@ -1,8 +1,8 @@
 .transition-fade {
+  transition: 0.9s ease-out;
   opacity: 1;
   transform: translateX(0%);
   transform-origin: left;
-  transition: 500ms;
 }
 
 html.is-animating .transition-fade {
@@ -18,8 +18,8 @@ html.is-leaving .transition-fade {
 
 
 .transition-down {
+  transition: 0.9s ease-out;
   opacity: 1;
-  transition: 400ms;
   transform: translateY(0%);
   transform-origin: top;
 }
