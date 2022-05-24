@@ -2,48 +2,54 @@
   font-family: "Kollektif";
   src: url("../font/Kollektif.ttf") format("truetype");
 }
+
 @font-face {
   font-family: "Sacramento-Regular";
   src: url("../font/Sacramento-Regular.ttf") format("truetype");
 }
+
 @font-face {
   font-family: "Poppins-Bold";
   src: url("../font/Poppins-Bold.ttf") format("truetype");
 }
+
 @font-face {
   font-family: "Poppins-SemiBold";
   src: url("../font/Poppins-SemiBold.ttf") format("truetype");
 }
+
 @font-face {
   font-family: "Poppins-Regular";
   src: url("../font/Poppins-Regular.ttf") format("truetype");
 }
+
 @font-face {
   font-family: "Arial Rounded MT";
   src: url("../font/Arial_Rounded_MT.ttf") format("truetype");
 }
-.nav-link {
-  color: #005a70 !important;
-  font-size: 20;
-  font-family: "Poppins-SemiBold", Arial, sans-serif;
-}
+
 .beta {
   font-size: 20;
   font-family: "Kollektif", "Times New Roman", sans-serif;
 }
-.m-title{
+
+.m-title {
   font-size: 3em;
   margin: 0.5em 0 0.5em 0;
 }
+
 .mission-title {
   font-size: 10em;
-  text-shadow: 0px 4px 5px rgba(207,207,207,0.72);
+  text-shadow: 0px 4px 5px rgba(207, 207, 207, 0.72);
   letter-spacing: 5px;
-  color:white;
+  color: white;
   font-family: "Sacramento-Regular", "Times New Roman", sans-serif;
 }
-@media (max-width: 544px) {  
-  .mission-title {font-size:5em;} 
+
+@media (max-width: 544px) {
+  .mission-title {
+    font-size: 5em;
+  }
 }
 
 
@@ -51,46 +57,52 @@ h3 {
   font-size: 50px;
   letter-spacing: 4px;
   font-weight: 600;
-  color:white;
+  color: white;
   font-family: "Sacramento-Regular", "Times New Roman", sans-serif;
 }
+
 .number {
   font-size: 3em;
   font-weight: 900;
   letter-spacing: 4px;
-  color:#005a70;
+  color: #005a70;
   position: absolute;
-  bottom:0;
-  right:0;
+  bottom: 0;
+  right: 0;
   font-family: "Sacramento-Regular", "Times New Roman", sans-serif;
 }
+
 .text-box {
   font-size: 25;
   color: #005a70;
   line-height: 2;
   font-family: "Poppins-Regular", "Times New Roman", sans-serif;
-  border:solid white 10px !important;
+  border: solid white 10px !important;
   letter-spacing: 0.1em;
   margin-left: 4em;
   margin-right: 4em;
   position: relative;
 }
-.bar{
+
+.bar {
   border: 3px solid #005a70;
   background-color: #005a70;
-  width:30%;
-  margin-top: 1em;;
+  width: 30%;
+  margin-top: 1em;
+  ;
   margin-left: auto;
-  margin-right:auto;
-  margin-bottom:1em;
+  margin-right: auto;
+  margin-bottom: 1em;
   border-radius: 1em;
 }
-.mission-text{
-  font-size:1.3em;} 
+
+.mission-text {
+  font-size: 1.3em;
+}
 
 
 
-.spool-text{
+.spool-text {
   font-size: 2em;
   color: #58d6d7;
   line-height: 2em;
@@ -98,7 +110,8 @@ h3 {
   font-family: "Poppins-Regular", "Times New Roman", sans-serif;
 
 }
-.spool-title{
+
+.spool-title {
   font-size: 4em;
   color: #58d6d7;
   line-height: 2em;
@@ -144,56 +157,88 @@ a:active {
   font-family: "Poppins-SemiBold", "Times New Roman", sans-serif;
 }
 
-.text-contact {
+a {
   font-size: 1em;
   color: white;
-  font-family: "Poppins-Regular", "Times New Roman", sans-serif;
-  
+
+}
+
+nav-item,
+a {
+  font-size: 0.9em;
+  font-weight: 800;
+
 }
 
 
-div,p {font-size:18px;} 
- 
-@media (max-width: 544px) {  
-  div,p {font-size:12px;} 
-}
- 
-@media (min-width: 544px) and (max-width: 768px) {  
-  div,p {font-size:14px;} 
-}
- 
-@media (min-width: 768px) and (max-width: 950px) { 
-  div,p {font-size:16px;} 
-}
- 
- 
- 
-@media (min-width: 950px) and (max-width:1100px) { 
-  div,p {font-size:18px;} 
+div,
+p {
+  font-size: 18px;
 }
 
+@media (max-width: 544px) {
 
- 
-@media (max-width: 544px) {  
-  .text-sc {font-size:14px;} 
+  div,
+  p {
+    font-size: 12px;
+  }
 }
- 
-@media (min-width: 768px) {  
-  .text-sc {font-size:18px;} 
+
+@media (min-width: 544px) and (max-width: 768px) {
+
+  div,
+  p {
+    font-size: 14px;
+  }
 }
- 
-@media (min-width: 992px) { 
-  .text-sc  {font-size:25px;} 
-}
- 
-@media (min-width: 1200px) {  
-  .text-sc {font-size:25px;}     
-}
- 
- 
-@media (min-width: 950px) and (max-width:1100px) { 
-  .text-sc {font-size:20px;} 
+
+@media (min-width: 768px) and (max-width: 950px) {
+
+  div,
+  p {
+    font-size: 16px;
+  }
 }
 
 
 
+@media (min-width: 950px) and (max-width:1100px) {
+
+  div,
+  p {
+    font-size: 18px;
+  }
+}
+
+
+
+@media (max-width: 544px) {
+  .text-sc {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) {
+  .text-sc {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 992px) {
+  .text-sc {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .text-sc {
+    font-size: 25px;
+  }
+}
+
+
+@media (min-width: 950px) and (max-width:1100px) {
+  .text-sc {
+    font-size: 20px;
+  }
+}
