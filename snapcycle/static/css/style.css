@@ -48,6 +48,7 @@
   font-weight: 600;
 }
 
+
 .mission-title {
   font-size: 10em;
   text-shadow: 0px 4px 5px rgba(207, 207, 207, 0.72);
@@ -83,7 +84,7 @@ h3 {
 }
 
 .text-box {
-  font-size: 25;
+  font-size: 14;
   color: #005a70;
   line-height: 2;
   font-family: "Poppins-Regular", "Times New Roman", sans-serif;
@@ -99,7 +100,6 @@ h3 {
   background-color: #005a70;
   width: 30%;
   margin-top: 1em;
-  ;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 1em;
@@ -109,8 +109,6 @@ h3 {
 .mission-text {
   font-size: 1.3em;
 }
-
-
 
 .spool-text {
   font-size: 2em;
@@ -188,10 +186,25 @@ a {
   color: #024f47;
 }
 
+.jumbotron {
+  width: 50%;
+  height: auto;
+  background-color: black;
+}
+
 div,
 p {
   font-size: 18px;
 }
+
+.page-footer {
+  margin-bottom: 0;
+}
+
+/* .container-mission {
+  background-color: #45c2f849;
+
+} */
 
 @media (max-width: 544px) {
 
