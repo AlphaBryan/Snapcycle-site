@@ -15,7 +15,7 @@ SECRET_KEY = 'django-insecure-h2nu*0x=e968e=76fte!r3ws8s$*!^zbcl=qorad1l0mdw5+2o
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '142.93.158.234']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -126,7 +126,7 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR,  'snapcycle/static')
 print('HERE',STATIC_ROOT)
 
-STATICFILES_DIRS = [os.path.join(BASE_DIR,  'snapcycle/static')]
+# STATICFILES_DIRS = [os.path.join(BASE_DIR,  'snapcycle/static')]
 
 
 try:

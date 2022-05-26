@@ -1,0 +1,59 @@
+{% load static %}
+<!doctype html>
+<html lang="en" >
+  <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Swup -->
+    <script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script> 
+    <link rel="stylesheet" href="{% static '/css/styleken.css'  %}">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{% static '/css/transitions.css'  %}">
+    <link rel="stylesheet" href="{% static '/css/style.css'  %}">
+    {% comment %} <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> {% endcomment %}
+    
+  
+    <title> Snapcycle{% block title%}{% endblock %}</title>
+  </head>
+  <body>
+    <!-- NAV BAR  -->
+    {% include "navbar.html" %}
+
+    {% block content%}
+    {% endblock%}
+
+  </body>
+ 
+
+  <style type="text/css">
+    html { 
+     {% comment %} background: url('{% static "contact/BackGround.png" %}') no-repeat center center;  {% endcomment %}
+     background: url('{% static "accueil/fond_image.png" %}') no-repeat center center; 
+     height: 110vh;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+    
+    }
+    body{
+        background-color: transparent!important;
+    }
+  
+  .borders {
+    border-width:10px !important;
+    width:30vh;
+    height:30vh;
+  }
+  </style>
+</html>
+
+
+
+              
+        
