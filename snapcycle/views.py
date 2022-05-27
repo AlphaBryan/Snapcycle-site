@@ -9,19 +9,19 @@ from django.http import HttpResponse
 
 
 def accueil(request):
-    return render(request, 'pages/accueil_copy.html')
+    return render(request, 'pages/accueil.html')
 
 
 def propos(request):
-    return render(request, 'pages/propos_copy.html')
+    return render(request, 'pages/propos.html')
 
 
 def contact(request):
-    return render(request, 'pages/contact_copy.html')
+    return render(request, 'pages/contact.html')
 
 
 def mission(request):
-    return render(request, 'pages/mission_copy.html')
+    return render(request, 'pages/mission.html')
 
 def spool(request):
     return render(request, 'pages/spool.html')

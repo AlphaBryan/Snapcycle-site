@@ -53,6 +53,28 @@
   border-radius: 0.4em;
 }
 
+.container-contact {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 50px;
+
+}
+
+.circle-container {
+  flex-basis: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 10px solid rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(182, 242, 253, 0.74);
+}
+
+
 .mission-title {
   font-size: 10em;
   text-shadow: 0px 4px 5px rgba(207, 207, 207, 0.72);
@@ -173,13 +195,15 @@ a {
 
 }
 
-nav-item,
+.nav-item,
 a {
   font-size: 1.1em;
   font-weight: 900;
   font-family: 'Nunito', sans-serif;
   margin: 0.9em;
 }
+
+
 
 .navbar-light .navbar-nav .active>.nav-link,
 .navbar-light .navbar-nav .nav-link.active,
@@ -203,6 +227,95 @@ p {
   margin-bottom: 0;
 }
 
+.message-img {
+  width: 75%;
+  height: auto;
+}
+
+
+.loading-img {
+  padding: 55px;
+  width: 85%;
+  height: auto;
+}
+
+.txt-accueil {
+  font-size: 3.4em;
+  color: white;
+  font-family: "Sacramento-Regular";
+}
+
+.align-middle {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 700px) {
+
+
+  .navbar-brand,
+  img {
+    width: 73%;
+  }
+
+  .contact-logo {
+    width: 160%;
+    margin-top: 20px;
+  }
+
+  .propos-logo {
+    margin-left: -22px;
+    width: 110%;
+    margin-top: 20px;
+  }
+
+  div,
+  p {
+    font-size: 12px;
+    line-height: 24px;
+  }
+
+  .container-contact {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+
+  }
+
+  .circle-container {
+    flex-basis: 180px;
+    height: 180px;
+  }
+
+  .loading-img {
+    width: 420px;
+  }
+
+  .txt-percent {
+    font-size: 2.4em;
+  }
+
+  .txt-accueil {
+    font-size: 3.4em;
+    line-height: 1.1em;
+    color: white;
+    font-family: "Sacramento-Regular";
+  }
+
+
+
+
+
+}
+
+
+
+
+
+/* 
 @media (max-width: 544px) {
 
   div,
@@ -235,7 +348,7 @@ p {
   p {
     font-size: 18px;
   }
-}
+} */
 
 
 
